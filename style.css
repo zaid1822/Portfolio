@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+
+
+
+
+.header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 100;
+    right: 0;
+    left: 0;
+}
+
+.banner{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.banner-image{
+    display: flex;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    object-fit: contain;
+    object-position: top;
+}
+
+.my-info{
+    position: absolute;
+    top: 300px;
+    align-items: center;
+    justify-items: center;
+}
+
+.profile-image{
+    display: flex;
+    justify-content: center;
+}
+
+.my-info img{
+    width: 100;
+    border-radius: 50%;
+}
+
+.my-info p{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.links ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-right: 0;
+
+}
+
+.logo{
+    width: 100px;
+
+    background-color: lightblue;
+    margin-left: 60px;
+}
+
+.links{
+    background-color: lightgoldenrodyellow;
+    margin-right: 60px;
+}
+
+/* .links li{
+    cursor: pointer;
+    background-color: lightgray;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    transition: background-color 0.53s;
+} */
+
+.links li a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    background-color: lightgray;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    transition: background-color 0.53s;
+}
+
+.links li:hover{
+    /* opacity: 0.8; */
+    background-color: green;
+}
+
+
+
+
+
+
+
+/* about section */
+
+.about-section{
+    height: 100vh;
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: lightcoral;
+}
+
+.about-section h1{
+    font-size: 70px;
+    text-align: center;
+}
+
+.about-section p{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
